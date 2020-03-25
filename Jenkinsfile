@@ -3,7 +3,7 @@
 pipeline {
     agent none
     stages {
-        stage ('Test') {
+        stage ('Test Stage') {
             steps {
                 myprint('Hello')
             }
